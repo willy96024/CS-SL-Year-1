@@ -1,36 +1,49 @@
-.md
+---
 
-<h1>
+# Pompous (Our Custom Syntex)
+
+---
 <Pompous>
 
 
 
-If/Else - Perchance/otherwise 
+*If/Else* - Perchance/Otherwise 
 
-While - Whilst
+*While* - Whilst
 
-For - Inasmuch
+*For* - Inasmuch
 
-Variables - Retention
+*Variables* - Retention
 
-Constants - Sturdies
+*Constants* - Sturdies
 
-String - Babbles
+*String* - Babbles
 
-Array - Pigeonhole
+*Array* - Pigeonhole
 
-Return Reciprocate
+*Return* - Reciprocate
 
-print.in =  giveForth
+*print.in* -  giveForth
+	
+	
+---
+# Hello World Function
+	
 
--Hello World Function
 <pompous>
+	
+	
 giveForth(“Hello World”)
 
 
 </Pompous>
+	
+---
 
--If age is 21
+# Complex Function
+---
+	
+*"If age is 21 you can drink alcohol"*
 
 <Pompous>
 
