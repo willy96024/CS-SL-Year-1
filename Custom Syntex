@@ -25,11 +25,11 @@ print.in =  giveForth
 giveForth(“Hello World”)
 
 
-</pompous>
+</Pompous>
 
 -If age is 21
 
-<pompous>
+<Pompous>
 
 retention.age = 21
 Perchance (age = 21){
@@ -41,4 +41,4 @@ Otherwise {
 }
 
 
-</pompous>
+</Pompous>
