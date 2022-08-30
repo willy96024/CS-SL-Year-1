@@ -1,0 +1,30 @@
+print("""Today's Notes
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1)  System
+2)  Legacy Systems
+3)  Feasibility, including TELOS
+4)  Change Management
+5)  Real World Example: 
+............. US Post Office
+6)  Hypothetical Example: 
+............. Encyclopedia Sales
+
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+  if(userchoice == "1"):
+    print("Prompt 1")
+  elif(userchoice == "2"):
+    print("Prompt 2")
+  elif(userchoice == "3"):
+    print("Prompt 3")
+  else:
+    print("Invalid Code")
+    answer = "empty"
