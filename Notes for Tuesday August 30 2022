@@ -20,11 +20,17 @@ userchoice = input()
 while(answer == "empty"):
   answer = "chosen"
   if(userchoice == "1"):
-    print("Prompt 1")
+    print("a full IT system of all related parts, including the people and the immediate environment.")
   elif(userchoice == "2"):
-    print("Prompt 2")
+    print("outdated computing software and/or hardware that is still in use. ")
   elif(userchoice == "3"):
-    print("Prompt 3")
+    print("checking if a proposed project should be undertaken (enough materials, able to be completed in a fair amount of time, etc.)")
+  elif(userchoice == "4"):
+    print("Change management is a collective term for all approaches to prepare, support, and help individuals, teams, and organizations in making organizational change.")
+  elif(userchoice == "5"):
+    print("Netflix's shift from home delivered movies to an online service")
+  elif(userchoice == "6"):
+    print("Leadership shift on the platformL "Twitter"").            
   else:
     print("Invalid Code")
     answer = "empty"
