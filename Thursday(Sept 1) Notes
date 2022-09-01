@@ -1,6 +1,9 @@
 Today's notes should include:
 - System Changeover
-- - Implementation Methods
+process used to switch from one system to another
+A system changeover for a medical facility, power plant, or communication provider can result in significant consequence should something go awry,
+    or should service be discontinued temporarily. For these reasons, there are a variety of strategies to facilitate system changeover.
+- - Implementation Methods     
 - - related to Data Migration
 - - - phases in Data Migration
 - - - issues in Data Migration
