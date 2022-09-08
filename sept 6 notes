@@ -1,4 +1,29 @@
-- SaaS: off-premises software is commonly called “software as a service”(cloud computing)
-- On-Premise Software: On-Premise Software is software that is installed and runs on computers on the premises of the person or organization using the software, rather than at a remote facility such as a server farm or cloud
-- System Life Cycle: 1. Planning 2. Requirement Analysis 3. Design 4. Implementation/Coding 5. Testing 6. Deploying 7. Maintenance
-- Functional Testing: Functional testing is a type of testing that seeks to establish whether each application feature works as per the software requirements. 
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1)  SaaS
+2)  On-Premise Software
+3)  System Life Cycle
+4)  Functional Testing
+
+
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+  if(userchoice == "1"):
+    print("off-premises software is commonly called “software as a service”(cloud computing)")
+  elif(userchoice == "2"):
+    print("On-Premise Software is software that is installed and runs on computers on the premises of the person or organization using the software, rather than at a remote facility such as a server farm or cloud")
+  elif(userchoice == "3"):
+    print("1. Planning 2. Requirement Analysis 3. Design 4. Implementation/Coding 5. Testing 6. Deploying 7. Maintenance")
+  elif(userchoice == "4"):
+    print("Functional testing is a type of testing that seeks to establish whether each application feature works as per the software requirements. 
+       
+  else:
+    print("Invalid Code")
+    answer = "empty"
