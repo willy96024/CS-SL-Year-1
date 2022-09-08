@@ -8,7 +8,7 @@ Please choose one of the options below, and press enter
 2)  On-Premise Software
 3)  System Life Cycle
 4)  Functional Testing
-
+""")
 
 answer = "empty"
 userchoice = input()
