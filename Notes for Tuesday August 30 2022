@@ -13,6 +13,7 @@ Please choose one of the options below, and press enter
 ............. US Post Office
 6)  Hypothetical Example: 
 ............. Encyclopedia Sales
+""")
 
 answer = "empty"
 userchoice = input()
