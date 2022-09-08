@@ -1,0 +1,15 @@
+- debugging:  process of correcting (and finding) bugs or errors in a program is referred to as debugging.
+- validation vs verification: Verification and validation are independent procedures that are used together for checking that a product, service, or system meets requirements and specifications and that it fulfills its intended purpose. 
+- testing & types of testing:Testing is used to check for potential costly bugs, verify the system and related processes run successfully, as well as to validate that the product or system meets the requirements. Two types of testing, dynamic and static.
+-- dry-run: dry-run is when you manually move through the code with pen-and-paper, to determine the expected outcome when the code is executed.
+-- functional: testing individual commands, text input, menu functions, etc.
+-- unit: relates to separately testing the individual components or parts of the system or software.
+-- integration:where the components are testing together within the system or software to verify that everything works correctly with each other.
+-- user acceptance: relates to determining if the system satisfies the customer's needs
+-- alpha: In alpha testing, the software or system is released to those within the company or organization who are not specifically involved in the development or implementation of the product
+-- beta:In beta testing, the software system is available to the public (or a group consisting of the public)
+- types of data used in testing: normal data, extreme data, boundary data, abonrmal/erroneous data
+-- normal: data that shoukd be accepted by the system(typical)
+-- at the limits: a pair of values at each end of a range(data at the upper or lower limits of expectations that should be accepted, the immediate values before or beyond the limits of expectations that should be rejected)
+-- extreme: data at the upper or lower limjits of expectations that should be accepted by the system
+-- abnormal: data that falls outside of what is acceptable and should be rejected by the system
