@@ -1,6 +1,6 @@
 Today's notes should include:
 - System Changeover
-process used to switch from one system to another
+
 A system changeover for a medical facility, power plant, or communication provider can result in significant consequence should something go awry,
     or should service be discontinued temporarily. For these reasons, there are a variety of strategies to facilitate system changeover.
 - - Implementation Methods     
@@ -11,19 +11,37 @@ A system changeover for a medical facility, power plant, or communication provid
 - - - Merger vs Acquisition
 - - - System Integration follow M&A
 
+print("""Today's Notes
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1)  System Changeover
+2)  Implementation Methods
+3)  related to Data Migration
+4)  phases in Data Migration
+5)  issues in Data Migration 
+6)  Merger vs. Acquisition
+7)  System Integration follow M&A
+
+answer = "empty"
+userchoice = input()
 
 while(answer == "empty"):
   answer = "chosen"
   if(userchoice == "1"):
-    print("a full IT system of all related parts, including the people and the immediate environment.")
+    print("process used to switch from one system to anotherprocess used to switch from one system to another. A system changeover for a medical facility, power plant, or communication provider can result in significant consequence should something go awry,
+    or should service be discontinued temporarily. For these reasons, there are a variety of strategies to facilitate system changeover. ")
   elif(userchoice == "2"):
-    print("outdated computing software and/or hardware that is still in use. ")
+    print("Parralel, Big Bang/Direct/Immediate, Pilot, Phased")
   elif(userchoice == "3"):
-    print("checking if a proposed project should be undertaken (enough materials, able to be completed in a fair amount of time, etc.)")
+    print("Data migration is the process of selecting, preparing, extracting, and transforming data and permanently transferring it from one computer storage system to another")
   elif(userchoice == "4"):
-    print("Change management is a collective term for all approaches to prepare, support, and help individuals, teams, and organizations in making organizational change.")
+    print("Plan, Migrate, & Validate")
   elif(userchoice == "5"):
-    print("Netflix's shift from home delivered movies to an online service")
+    print("Merging or acquiring may seek to reduce costs by controlling more of the process, reducing competition, or other factors. Ultimately, the merger should result in a competitive advantage for the new merged organization/company.")
   elif(userchoice == "6"):
     print("Leadership shift on the platformL "Twitter"").            
   else:
