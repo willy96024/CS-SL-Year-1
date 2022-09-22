@@ -1,0 +1,35 @@
+print("""Today's Notes
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1)  Patch
+2)  Upgrades
+3)  Updates
+4)  Releases
+5)  
+6) 
+
+
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+  if(userchoice == "1"):
+    print("used by software companies to update applications by fixing known bugs and vulnerabilities. Be aware that patches may introduce new bugs.")
+  elif(userchoice == "2"):
+    print("improve a product in a minor way, adding some new functionality or fixing a bug. Updates are usually free. Updates may be obtained manually, or may also be automatic through an internet connection.")
+  elif(userchoice == "3"):
+    print("final, working versions of software applications. Prior to release, they should undergo alpha and beta testing. A release is a new product, or an upgraded product.")
+  elif(userchoice == "4"):
+    print("When a company chooses to promote a new software, they typically stop supporting previous products (or will do so within the near future). Stopping support typically results in no new patches or updates released for the product. Over time, this may result in incompatabilities or insecurities between the software and other products or systems.")
+  elif(userchoice == "5"):
+    print("")
+  elif(userchoice == "6"):
+    print("").            
+  else:
+    print("Invalid Code")
+    answer = "empty"
