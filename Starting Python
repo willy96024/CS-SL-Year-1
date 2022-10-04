@@ -1,1 +1,68 @@
+print("""4th Industrial Revolution
 
+The 4th Industrial Revolution is blah blah blah
+
+
+-MENU-
+---------
+Please choose one of the options below, and press enter
+
+1) Why are you here at school?
+2) What is the purpose of school?
+3) Are you getting out of it, what you should be getting out of it?
+4) Who do you think went to school before that?
+5) Why do you think the laws changed? What effects do you think it would have?
+6) What are your thoughts in response to this video? How might these new technologies affect education? 
+7) Historically, you should be aware of the Industrial Revolution, but have you heard of the 4th Industrial Revolution?
+8) Have you discovered what you love?
+9) Have you had the opportunity to grow in this area? Was is at school? Or was it outside of school?
+10) Do you think you will you have the opportunity to discover what you love, and become great at it after you finish your secondary education?
+11) Should we change how our school systems work? How would you want to change it?
+
+
+
+""")
+
+answer = "empty"
+userchoice = input()
+
+while(answer == "empty"):
+  answer = "chosen"
+  if(userchoice == "1"):
+    print("I am here at school today to attain knowledge for possible career paths that I might invest my time in. I want to learn more about different topics so I can narrow down my interests and eliminate options I find no passion in
+")
+  elif(userchoice == "2"):
+    print("The purpose of school is to provide children and teens with educational opportunities and prepare them for their adult lives/the real world. School is also important for kids to learn to interact with other people and improve their speaking/listening(social) skills,
+")
+  elif(userchoice == "3"):
+    print("Although I feel like I’m getting fairly important knowledge from some classes like English and History, other classes are just diving too far deep into themselves that I don’t see a need for, such as math where I’m learning things that I will probably never need again, especially since I do not want to be a mathematician or a teacher. Overall I’m unsatisfied with my experience but I guess it’s bearable.
+")
+  elif(userchoice == "4"):
+    print("I believe that people who went to school before this time were only the ones with fairly wealthy parents, and as a result education opportunities that weren’t available to “commoners.” Private tutors or “teachers” probably weren’t cheap, especially for a prolonged period of time. Either that or people went to school before that because they had educated parents who knew what they were doing and could teach their children
+")
+  elif(userchoice == "5"):
+    print("Because not everybody had opportunities like those with educated/rich parents. Because most people were probably uneducated and without any experience for decent jobs, the government felt as though the opportunities to learn should be for all, not just the select few that went to school previously. Effects this would have on people is that everyone would learn enough to participate in a trade and have better opportunities at higher paying jobs than back when they had common, bad jobs. As technology has continually changed both culture and work, and new technologies are continually developed, there is alway new interest in how technology can work for us.
+")
+  elif(userhoice == "6"):
+    print("I think the technology is really cool and will help teach students better maybe? I don’t see a huge use for technology at the moment for education, but maybe that will change eventually society and culture helps shape the development of new technologies, and new technologies, in turn, help shape the development of our society and culture. Some of these only affect minor aspects, others may radically change nearly every part of our culture.
+")
+  elif(userhoice == "7"):
+    print("No, I’ve never heard of this 4th Industrial Revolution before
+")
+  elif(userhoice == "8"):
+    print("I think I enjoy computer science a lot and want to invest my time in it and actually learn enough to make my own programs.
+")
+  elif(userhoice == "9"):
+    print("I’m taking a class for it right now so I think that will help, and I’m also going to start taking out of school courses for it to master a few languages. Both
+")
+  elif(userhoice == "10"):
+    print("Yes!")
+  elif(userhoice == "11"):
+    print("I mean I think a few changes here and there might be nice, but who knows. Not teach things that one won’t need, or teach them only if one wants to learn them for a job, since these courses might not be for every job. Maybe it’s the best fit? I’m not really sure
+
+
+")
+
+
+    print("Invalid Code")
+    answer = "empty"
