@@ -39,7 +39,31 @@ while(answer == "empty"):
   elif(userchoice == "5"):
     print("")
   elif(userchoice == "6"):
-    print("")            
+    print("")    
+  elif(userchoice == "7"):
+    print("") 
+  elif(userchoice == "8"):
+    print("") 
+  elif(userchoice == "9"):
+    print("people who are part of (or could be part of) an organization, business, or economy") 
+  elif(userchoice == "10"):
+    print("") 
+  elif(userchoice == "11"):
+    print("")
+  elif(userchoice == "12"):
+    print("") 
+  elif(userchoice == "13"):
+    print("") 
+  elif(userchoice == "14"):
+    print("") 
+  elif(userchoice == "15"):
+    print("") 
+  elif(userchoice == "16"):
+    print("") 
+  elif(userchoice == "17"):
+    print("") 
+  
+  
   else:
     print("Invalid Code")
     answer = "empty"
