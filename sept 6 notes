@@ -8,6 +8,7 @@ Please choose one of the options below, and press enter
 2)  On-Premise Software
 3)  System Life Cycle
 4)  Functional Testing
+5)  Advantages and Disadvantages of SaaS applications
 """)
 
 answer = "empty"
@@ -22,8 +23,23 @@ while(answer == "empty"):
   elif(userchoice == "3"):
     print("1. Planning 2. Requirement Analysis 3. Design 4. Implementation/Coding 5. Testing 6. Deploying 7. Maintenance")
   elif(userchoice == "4"):
-    print("Functional testing is a type of testing that seeks to establish whether each application feature works as per the software requirements. 
-       
+    print("Functional testing is a type of testing that seeks to establish whether each application feature works as per the software requirements")
+  elif(userchoice == "5"):
+    print("
+Advantages: 
+Lower initial costs, likely faster implementation
+Maintenance and updates by software manufacturer
+No staff needed to maintain the system 
+Software manufacturer likely provides more support
+On-site natural disasters do not put data at risk 
+
+Disadvantages: 
+continued subscription fees may ultimately be more expensive than On-premises software or custom designed software for large companies
+Potential data-risk from software manufacturer
+Potential differing time zones, maintenance and support may not be at convenient times
+Specialized or unusual needs of a specific client may not be a priority of the software manufacturer
+Because host is not the user itself, user feedback is harder to get
+System change may be required sooner than ideal if the service is discontinued, the company seeks new functionality that the manufacturer is not interested in adding, or the manufacturer goes out of business")
   else:
     print("Invalid Code")
     answer = "empty"
