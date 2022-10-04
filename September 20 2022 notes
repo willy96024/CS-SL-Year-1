@@ -1,0 +1,60 @@
+print("""DATA LOSS
+
+- MENU -
+''''''''
+Please choose on of the options below, and press enter.
+
+1)Data Loss
+2)Cost of Data Loss
+3)Cause of Data Loss: Accidental Deletion
+4)Cause of Data Loss: Poor data storage organization system (mismanagement) 
+5)Cause of Data Loss: Structural or building fire
+6)Cause of Data Loss: Closing the program without saving the file
+7)Cause of Data Loss: Computer Viruses
+8)SMART
+9)Cause of Data Loss: Firmware corruption
+10)Cause of Data Loss: Natural disasters 
+11)Cause of Data Loss: Malicious agents/actors attempting to steal, alter, or delete data
+12)Cause of Data Loss: Physical damage of the storage 
+13)Cause of Data Loss: Power failure
+14)Cause of Data Loss: Data corruption
+
+""")
+
+answer = "empty"
+
+while (answer == "empty"): 
+  userchoice = input()
+  answer = "chosen"
+
+  if(userchoice == "1"):
+    print("Any condition where data is lost or damaged, whether it be due to a system failure, storage negligence, or processing/transmission errors all relate to data loss.")
+  elif(userchoice == "2"):
+    print("Cost of data loss varies, depending on what was lost, how long it takes to recover or recreate the data, as well as hos costly it may be not notify users or clients effected.")
+  elif(userchoice == "3"):
+    print("Very common way of deletion and can be fixed by the use of file recovery software)
+  elif(userchoice == "4"):
+    print("The data is lost forever and needs restructure / redesign organizational conventions")
+  elif(userchoice == "5"):
+    print("Very rare way of data loss and the solution is to store data in two separate locations")
+  elif(userchoice == "6"):
+    print("Very common way of data loss and to fix you need to pay more attention or have an auto save feature")
+  elif(userchoice == "7"):
+    print("Very common cause of data loss and the need for regular back ups and an antivirus software")
+  elif(userchoice == "8"):
+    print("Used to detect and report various indicators of drive reliability with the intent of anticipating imminent hardware failures.")
+  elif(userchoice == "9"):
+    print("Can happen during hard disk failures and can be prevented with regualar back-up")
+  elif(userchoice == "10"):
+    print("Very rare way of data loss and the solution is to store data in two separate locations")
+  elif(userchoice == "11"):
+    print("Can be fixed with a firewall and better authentication steps")
+  elif(userchoice == "12"):
+    print("Take extra care and regualar backups will help prevent")
+  elif(userchoice == "13"):
+    print("Need for Uninterruptable Power Supply and regular backups")
+  elif(userchoice == "14"):
+    print("Can happen when errors in computer data and also can happen during reading, writing, transferring, or storage you need regular back up to prevent")
+  else:
+    print("INVALID INPUT , please try again")
+  answer = "empty"
