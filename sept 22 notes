@@ -22,7 +22,7 @@ Please choose one of the options below, and press enter
 15) DNS Server
 16) Firewall
 17) Client-server
-
+""")
 answer = "empty"
 userchoice = input()
 
@@ -37,31 +37,31 @@ while(answer == "empty"):
   elif(userchoice == "4"):
     print("When a company chooses to promote a new software, they typically stop supporting previous products (or will do so within the near future). Stopping support typically results in no new patches or updates released for the product. Over time, this may result in incompatabilities or insecurities between the software and other products or systems.")
   elif(userchoice == "5"):
-    print("")
+    print("Hardware refers to the computer's tangible components or delivery systems that store and run the written instructions provided by the software.")
   elif(userchoice == "6"):
-    print("")    
+    print("a set of instructions, data or programs used to operate computers and execute specific tasks.")    
   elif(userchoice == "7"):
-    print("") 
+    print("An input/output unit of a system that feeds data into and/or receives data from the central processing unit of a digital device.") 
   elif(userchoice == "8"):
-    print("") 
+    print("nterconnected computing devices that can exchange data and share resources with each other. ") 
   elif(userchoice == "9"):
     print("people who are part of (or could be part of) an organization, business, or economy") 
   elif(userchoice == "10"):
-    print("") 
+    print("does not do performing local processing of entered information, but serves only as an input/output device for an attached or network-linked processor.") 
   elif(userchoice == "11"):
-    print("")
+    print("virtual desktop computing model that runs on the resources stored on a central server instead of a computer's resources.")
   elif(userchoice == "12"):
-    print("") 
+    print("any computer hardware or software device that requests access to a service provided by a server. ") 
   elif(userchoice == "13"):
-    print("") 
+    print("computer system that sends and receives emails") 
   elif(userchoice == "14"):
-    print("") 
+    print("physical or virtual appliance that passes information between two or more packet-switched computer networks.") 
   elif(userchoice == "15"):
-    print("") 
+    print("naming database in which internet domain names are located and translated into Internet Protocol (IP) addresses.") 
   elif(userchoice == "16"):
-    print("") 
+    print("cybersecurity tool that monitors incoming and outgoing network traffic and permits or blocks data packets based on a set of cybersecurity rules.") 
   elif(userchoice == "17"):
-    print("") 
+    print("A server is a sample of software or hardware that serves a specific service to its clients.") 
   
   
   else:
