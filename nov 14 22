@@ -1,8 +1,12 @@
 What is WCAG? 
 Web Content Accessibility Guidelines 2.0 defines how to make web content more accessible to people with disabilities, and older people with changing abilities due to ageing/aging. WCAG provides a provide common definition for accessible content, a benchmark.
 
-What was WCAG released?
+when was WCAG released?
+WCAG version 1.0 was published on May 5, 1999; WCAG version 2.0 was released on December 11, 2008. The upcoming version of WCAG (2.2 Draft) is scheduled to be finalized in early 2023
+
 
 Who works on WCAG?
+WCAG is worked on by the World Wide Web Consortium Web Accessibility Initiative(or just World Wide Web Consortium).
 
 What is WCAG 2.1 in comparison to WCAG 2.0?
+It's just an extension on 2.0 with additional success criteria. There are a few new guidelines but other than that they're not too different. 2.0 lacked in addressing many of the common features necessary for accessibiity on mobile devices
